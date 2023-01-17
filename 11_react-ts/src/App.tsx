@@ -6,6 +6,10 @@ function App() {
   const age: number = 28;
   const isWorking: boolean = true;
 
+  // 2 - Funções
+  const userGreeting = (name: string): string => {
+    return `Olá, ${name}!`;
+  }
 
   return (
     <div className="App">
@@ -15,6 +19,7 @@ function App() {
       {isWorking && (
         <p>Está trabalhando</p>
       )}
+      <h3>{userGreeting(name)}</h3>
     </div>
   );
 }
