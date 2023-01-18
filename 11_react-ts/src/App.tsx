@@ -10,6 +10,9 @@ import Destructuring, { Category } from './components/Destructuring';
 // 6 - useState
 import State from './components/State';
 
+// 11 - Consumindo Context API
+import Context from './components/Context';
+
 // 9 - Type
 type textOrNull = string | null;
 
@@ -72,6 +75,7 @@ function App() {
           mySecondText && 
           <p>Tem texto na variável</p>
         }
+        <Context />
       </div>
     </AppContext.Provider>
   );
