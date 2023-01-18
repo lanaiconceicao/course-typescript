@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { createContext } from 'react';
 
 // 4 - Importação de componentes
 import FirstComponent from './components/FirstComponent';
@@ -12,6 +12,15 @@ import State from './components/State';
 
 // 9 - Type
 type textOrNull = string | null;
+
+// 10 - Context
+interface IAppContext {
+  language: string;
+  framework: string;
+  projects: number;
+}
+
+export const AppContext = createContext<IAppContext | null>(null)
 
 function App() {
   // 1 - Variáveis
@@ -28,34 +37,43 @@ function App() {
   const myText: textOrNull = 'Tem algum texto aqui'
   let mySecondText: textOrNull = null
 
+  // 10 - Context
+  const contextValue: IAppContext = {
+    language: "Javascript",
+    framework: "Express",
+    projects: 5,
+  }
+
   return (
-    <div className="App">
-      <h1>Typescript com React</h1>
-      <h2>Nome: {name}</h2>
-      <p>Idade: {age}</p>
-      {isWorking && (
-        <p>Está trabalhando</p>
-      )}
-      <h3>{userGreeting(name)}</h3>
-      <FirstComponent />
-      <SecondComponent name="Segundo" />
-      <Destructuring
-        title="Primeiro post"
-        content="Algum conteúdo"
-        commentsQty={10}
-        tags={['tag1', 'tag2', 'tag3']}
-        category={Category.JS}
-      />
-      <State />
-      {
-        myText && 
-        <p>Tem texto na variável</p>
-      }
-      {
-        mySecondText && 
-        <p>Tem texto na variável</p>
-      }
-    </div>
+    <AppContext.Provider value={contextValue}>
+      <div className="App">
+        <h1>Typescript com React</h1>
+        <h2>Nome: {name}</h2>
+        <p>Idade: {age}</p>
+        {isWorking && (
+          <p>Está trabalhando</p>
+        )}
+        <h3>{userGreeting(name)}</h3>
+        <FirstComponent />
+        <SecondComponent name="Segundo" />
+        <Destructuring
+          title="Primeiro post"
+          content="Algum conteúdo"
+          commentsQty={10}
+          tags={['tag1', 'tag2', 'tag3']}
+          category={Category.JS}
+        />
+        <State />
+        {
+          myText && 
+          <p>Tem texto na variável</p>
+        }
+        {
+          mySecondText && 
+          <p>Tem texto na variável</p>
+        }
+      </div>
+    </AppContext.Provider>
   );
 }
 
