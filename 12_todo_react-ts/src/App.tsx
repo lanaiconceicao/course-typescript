@@ -4,11 +4,16 @@ import React from 'react';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 
+// CSS
+import style from './App.module.css'
+
 function App() {
   return (
     <div>
       <Header />
-      <section>Conteúdo...</section>
+      <main className={style.main}>
+        <h1>Conteúdo...</h1>
+      </main>
       <Footer />
     </div>
   );
