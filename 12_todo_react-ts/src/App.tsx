@@ -6,13 +6,22 @@ import { Header } from './components/Header';
 
 // CSS
 import style from './App.module.css'
+import { TaskForm } from './components/TaskForm';
+import { TaskList } from './components/TaskList';
 
 function App() {
   return (
     <div>
       <Header />
       <main className={style.main}>
-        <h1>Conteúdo...</h1>
+        <div>
+          <h2>O que você vai fazer?</h2>
+          <TaskForm />
+        </div>
+        <div>
+          <h2>Suas tarefas:</h2>
+          <TaskList />
+        </div>
       </main>
       <Footer />
     </div>
