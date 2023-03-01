@@ -45,6 +45,24 @@ app.get("/api/json", (req: Request, res: Response) => {
   });
 });
 
+// 7 - router parameters
+app.get("/api/product/:id", (req: Request, res: Response) => {
+  console.log(req.params);
+
+  const id = req.params.id
+
+  if(id === "1") {
+    const product = {
+      id: 1,
+      name: "Boné",
+      price: 110.90,
+    }
+    return res.json(product);
+  } else {
+    return res.send("Produto não encontrado!");
+  }
+});
+
 app.listen(3000, () => {
   console.log("Aplicação de TS + Express funcionando!");
 });
