@@ -18,6 +18,14 @@ app.post("/api/product", (req, res) => {
   return res.send("Produto adicionado");
 });
 
+// 11 - middleware em todas as rotas
+function showPath(req: Request, res: Response, next: NextFunction) {
+  console.log(req.path);
+  next();
+};
+
+app.use(showPath);
+
 // 4 - rota para todos os verbos
 app.all("/api/product/check", (req, res) => {
   // req.method = VERBO HTTP
