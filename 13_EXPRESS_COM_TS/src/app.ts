@@ -103,6 +103,13 @@ app.get("/api/user/:id/access", checkUser, (req: Request, res: Response) => {
   return res.json({ msg: "Bem vindo a área administrativa!" })
 });
 
+// 12 - req e res com generic
+app.get("/api/user/:id/details/:name", (req: Request<{id: string, name: string}>, res: Response<{status: boolean}>) => {
+  console.log(`ID: ${req.params.id}`);
+  console.log(`Name: ${req.params.name}`);
+  return res.json({ status: true });
+});
+
 
 app.listen(3000, () => {
   console.log("Aplicação de TS + Express funcionando!");
