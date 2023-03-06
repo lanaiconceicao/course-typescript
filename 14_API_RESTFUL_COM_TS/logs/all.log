@@ -41,3 +41,41 @@
 2023-03-06 16:30:33:3033 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
 2023-03-06 16:31:01:311 - [35mhttp[39m: [35mPOST /api/movie 201 158 - 163.046 ms[39m
 [35m[39m
+2023-03-06 17:41:46:4146 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-03-06 17:41:46:4146 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
+2023-03-06 17:41:46:4146 - [35mhttp[39m: [35mPOST /api/movie 422 51 - 4.771 ms[39m
+[35m[39m
+2023-03-06 17:43:42:4342 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-03-06 17:43:42:4342 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
+2023-03-06 17:43:43:4343 - [35mhttp[39m: [35mPOST /api/movie 422 71 - 5.205 ms[39m
+[35m[39m
+2023-03-06 17:45:35:4535 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-03-06 17:45:35:4535 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
+2023-03-06 17:47:34:4734 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-03-06 17:47:34:4734 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
+2023-03-06 17:47:36:4736 - [35mhttp[39m: [35mPOST /api/movie 422 56 - 5.659 ms[39m
+[35m[39m
+2023-03-06 17:47:50:4750 - [35mhttp[39m: [35mPOST /api/movie 201 158 - 162.540 ms[39m
+[35m[39m
+2023-03-06 17:48:03:483 - [35mhttp[39m: [35mPOST /api/movie 201 159 - 153.258 ms[39m
+[35m[39m
+2023-03-06 17:48:27:4827 - [35mhttp[39m: [35mPOST /api/movie 422 58 - 0.653 ms[39m
+[35m[39m
+2023-03-06 17:50:08:508 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-03-06 17:50:08:508 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
+2023-03-06 17:50:49:5049 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-03-06 17:50:49:5049 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
+2023-03-06 17:51:29:5129 - [35mhttp[39m: [35mPOST /api/movie 422 61 - 5.893 ms[39m
+[35m[39m
+2023-03-06 17:51:51:5151 - [35mhttp[39m: [35mPOST /api/movie 422 61 - 1.211 ms[39m
+[35m[39m
+2023-03-06 17:52:01:521 - [35mhttp[39m: [35mPOST /api/movie 201 195 - 161.534 ms[39m
+[35m[39m
+2023-03-06 17:53:58:5358 - [35mhttp[39m: [35mPOST /api/movie 422 74 - 6.044 ms[39m
+[35m[39m
+2023-03-06 17:54:05:545 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-03-06 17:54:05:545 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
+2023-03-06 17:54:46:5446 - [35mhttp[39m: [35mPOST /api/movie 201 211 - 158.837 ms[39m
+[35m[39m
+2023-03-06 17:56:52:5652 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-03-06 17:56:52:5652 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
