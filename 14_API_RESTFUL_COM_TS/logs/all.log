@@ -33,3 +33,11 @@
 [35m[39m
 2023-03-06 15:56:09:569 - [35mhttp[39m: [35mPOST /api/movie 200 23 - 1.734 ms[39m
 [35m[39m
+2023-03-06 16:02:56:256 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-03-06 16:02:56:256 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
+2023-03-06 16:05:05:55 - [35mhttp[39m: [35mPOST /api/movie 201 155 - 160.506 ms[39m
+[35m[39m
+2023-03-06 16:30:33:3033 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-03-06 16:30:33:3033 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
+2023-03-06 16:31:01:311 - [35mhttp[39m: [35mPOST /api/movie 201 158 - 163.046 ms[39m
+[35m[39m
