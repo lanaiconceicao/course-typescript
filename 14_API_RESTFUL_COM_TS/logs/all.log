@@ -5,3 +5,19 @@
 2023-03-06 11:44:05:445 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
 2023-03-06 11:45:27:4527 - [32minfo[39m: [32mConectou ao banco de dados[39m
 2023-03-06 11:45:27:4527 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
+2023-03-06 12:42:26:4226 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-03-06 12:42:26:4226 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
+2023-03-06 12:42:53:4253 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-03-06 12:42:53:4253 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
+2023-03-06 12:43:20:4320 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-03-06 12:43:20:4320 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
+2023-03-06 12:44:06:446 - [35mhttp[39m: [35mGET /api/test 200 14 - 2.252 ms[39m
+[35m[39m
+2023-03-06 12:44:12:4412 - [35mhttp[39m: [35mGET /api/test 200 14 - 0.449 ms[39m
+[35m[39m
+2023-03-06 12:44:12:4412 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-03-06 12:44:12:4412 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
+2023-03-06 12:44:16:4416 - [35mhttp[39m: [35mGET /api/testi 404 148 - 1.485 ms[39m
+[35m[39m
+2023-03-06 12:44:22:4422 - [35mhttp[39m: [35mGET /api/test 200 14 - 0.374 ms[39m
+[35m[39m
