@@ -79,3 +79,38 @@
 [35m[39m
 2023-03-06 17:56:52:5652 - [32minfo[39m: [32mConectou ao banco de dados[39m
 2023-03-06 17:56:52:5652 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
+2023-03-07 09:58:30:5830 - [31merror[39m: [31mNão foi possível conectar[39m
+2023-03-07 09:59:07:597 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-03-07 09:59:07:597 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
+2023-03-07 10:13:22:1322 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-03-07 10:13:22:1322 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
+2023-03-07 10:14:14:1414 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-03-07 10:14:14:1414 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
+2023-03-07 10:15:18:1518 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Model"[39m
+2023-03-07 10:16:16:1616 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-03-07 10:16:16:1616 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
+2023-03-07 10:17:22:1722 - [35mhttp[39m: [35mGET /api/movie 404 148 - 2.905 ms[39m
+[35m[39m
+2023-03-07 10:18:04:184 - [35mhttp[39m: [35mPOST /api/movie 422 209 - 5.444 ms[39m
+[35m[39m
+2023-03-07 10:19:56:1956 - [35mhttp[39m: [35mPOST /api/movie 422 54 - 1.368 ms[39m
+[35m[39m
+2023-03-07 10:20:37:2037 - [35mhttp[39m: [35mPOST /api/movie 201 341 - 176.754 ms[39m
+[35m[39m
+2023-03-07 10:21:47:2147 - [35mhttp[39m: [35mGET /api/movie/64073a25909e430752733558 - - - - ms[39m
+[35m[39m
+2023-03-07 10:22:07:227 - [35mhttp[39m: [35mGET /api//movie/64073a25909e430752733558 - - - - ms[39m
+[35m[39m
+2023-03-07 10:22:52:2252 - [35mhttp[39m: [35mGET /api//movie/64073a25909e430752733558 - - - - ms[39m
+[35m[39m
+2023-03-07 10:22:57:2257 - [31merror[39m: [31mErro no sistema: Operation `models.findOne()` buffering timed out after 10000ms[39m
+2023-03-07 10:22:59:2259 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-03-07 10:22:59:2259 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
+2023-03-07 10:23:14:2314 - [35mhttp[39m: [35mGET /api/movie/64073a25909e430752733558 - - - - ms[39m
+[35m[39m
+2023-03-07 10:23:18:2318 - [35mhttp[39m: [35mGET /api/movie/64073a25909e430752733559 404 32 - 140.594 ms[39m
+[35m[39m
+2023-03-07 10:24:05:245 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-03-07 10:24:05:245 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
+2023-03-07 10:24:05:245 - [35mhttp[39m: [35mGET /api/movie/64073a25909e430752733558 200 341 - 5643.949 ms[39m
+[35m[39m
