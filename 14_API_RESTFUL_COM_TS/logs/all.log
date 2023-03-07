@@ -114,3 +114,9 @@
 2023-03-07 10:24:05:245 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
 2023-03-07 10:24:05:245 - [35mhttp[39m: [35mGET /api/movie/64073a25909e430752733558 200 341 - 5643.949 ms[39m
 [35m[39m
+2023-03-07 10:35:03:353 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-03-07 10:35:03:353 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
+2023-03-07 10:35:36:3536 - [32minfo[39m: [32mConectou ao banco de dados[39m
+2023-03-07 10:35:36:3536 - [32minfo[39m: [32mA aplicação está funcionando na porta: 3000[39m
+2023-03-07 10:35:59:3559 - [35mhttp[39m: [35mGET /api/movies 200 1385 - 158.637 ms[39m
+[35m[39m
